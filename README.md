@@ -48,8 +48,6 @@ Este proyecto está pensado como el **frontend** de una pequeña aplicación de 
 ## 🔌 Dependencia del backend
 
 La app asume la existencia de un backend accesible en:
-
-```text
 http://localhost:8080/notas
 
 ## END POINTS
@@ -61,21 +59,22 @@ http://localhost:8080/notas
 
 
 
-🚀 Cómo ejecutar el proyecto
-1.-Clonar repositorio:
+## 🚀 Cómo ejecutar el proyecto
+1. Clonar repositorio:
 git clone https://github.com/AxelJMV/NotasFront.git
 
-2.-Entrar a la carpeta del proyecto
+2. Entrar a la carpeta del proyecto
 cd NotasFront
 
-
-3.-Opciones para abrir el proyecto
+3. Opciones para abrir el proyecto
 Abrir el archivo index.html en el navegador(requiere modificar BackEnd para punto de entrada )
 Usar extebsuib como Live Server en VS Code para levantar el servidor estático. 
 
-4.-Asegurarse de tener el back end corriendo Spring Boot
+4. Asegurarse de tener el back end corriendo Spring Boot
 http://localhost:8080/notas
 
+5. Probar la App 
+**Crea tus notas, no requiere base de datos, todo se guarda en memoria con H2** 
 
 Este proyecto se utiliza con fines educativos y personales.
 Siéntete libre de utilizarlo como base para tus propios experimentos y aprendizaje.
