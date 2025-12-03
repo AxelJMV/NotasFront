@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Notas</title>
+  </head>
+  <body>
+    <header class="barrasuperior">
+      <div class="brand">
+        <span class="brand-icon">📝</span>
+        <span class="brand-title">Mis Notas</span>
+      </div>
+
+      <form class="search-bar">
+        <input
+          type="text"
+          name="buscar"
+          placeholder="Buscar nota..."
+          class="search-input"
+        />
+        <button type="submit" class="search-button">Buscar</button>
+      </form>
+    </header>
+
+    <main class="layout">
+      <!-- Columna izquierda: lista de notas -->
+      <aside class="columna-izquierda">
+        <div class="columna-header">
+          <h2>Notas</h2>
+          <button class="btn btn-primary">+ Nueva nota</button>
+        </div>
+
+        <!-- Lista que JS rellenará con las notas del backend -->
+        <ul class="nota-lista"></ul>
+      </aside>
+
+      <!-- Columna derecha: detalle de nota / formulario -->
+      <section class="columna-derecha">
+        <header class="detalle-header">
+          <!-- JS rellenará aquí ID, fecha creación y modificación -->
+          <p class="detalle-meta"></p>
+        </header>
+
+        <form class="nota-form">
+          <label class="campo-label" for="titulo">Título</label>
+          <input
+            id="titulo"
+            type="text"
+            class="campo-input"
+            placeholder="Título de la nota"
+          />
+
+          <label class="campo-label" for="contenido">Contenido</label>
+          <textarea
+            id="contenido"
+            class="campo-textarea"
+            placeholder="Escribe tu nota aquí..."
+          ></textarea>
+
+          <div class="acciones">
+            <button type="submit" class="btn btn-primary">Guardar</button>
+            <button type="button" class="btn btn-danger">Eliminar</button>
+            <button type="button" class="btn btn-secondary">Cancelar</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <!-- JS al final para que el DOM ya exista cuando se ejecute -->
+    <script src="js/app.js"></script>
+  </body>
+</html>
