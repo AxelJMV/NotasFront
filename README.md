@@ -4,7 +4,11 @@ Interfaz web sencilla para crear, editar, buscar y eliminar notas, pensada como 
 
 > 💡 Ideal como proyecto para practicar CRUD, manejo del DOM y consumo de APIs desde el frontend.
 
+---
 
+## 📸 Vista previa
+
+![Vista previa de la aplicación de notas](assets/screenshot-notas.png)
 
 
 ---
