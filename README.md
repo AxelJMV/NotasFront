@@ -8,7 +8,7 @@ Interfaz web sencilla para crear, editar, buscar y eliminar notas, pensada como 
 
 ## 📸 Vista previa
 
-![Vista previa de la aplicación de notas](assets/screenshot-notas.png)
+![Vista previa de la aplicación de notas](src/assets/screenshot-notas.png)
 
 
 ---
